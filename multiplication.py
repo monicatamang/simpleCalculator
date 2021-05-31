@@ -9,18 +9,11 @@ def multiply_numbers(numbers_list):
     # Iterating through the new list created
     for number in new_numbers_list:
 
-        # In general, the result is calculated by multiplying the product and then multiplying the product with the next number in the new list
+        # In general, the result is calculated by multiplying two numbers to get the product and then multiplying the product with the next number in the new list
         result = product * number
 
-        # Once the new result is calculated, it is set as the new product value and the iteration process is repeated
+        # Once the new result is calculated, it is set as the new product and the iteration process is repeated
         product = result
 
     # Returning the value
     return result
-
-# ORIGINAL ASSIGNMENT: TAKING TWO USER INPUTS
-
-# Creating a function that multiplies two numbers and returns the result
-# def multiply_numbers(num1, num2):
-#     result = num1 * num2
-#     return result

@@ -9,7 +9,7 @@ def subtract_numbers(numbers_list):
     # Iterating through the new list created
     for number in new_numbers_list:
 
-        # In general, the result is calculated by subtracting the difference of two numbers and then subtracting the difference from the next number in the new list
+        # In general, the result is calculated by subtracting two numbers to get the difference and then subtracting the difference from the next number in the new list
         result = difference - number
 
         # Once the new result is calculated, it is set as the new difference value and the iteration process is repeated
@@ -34,13 +34,6 @@ def subtract_numbers(numbers_list):
     # result = 95 - 22 = 73
     # difference = result = 73
 
-    # This process repeats until the last number in the list is subtracted by the final difference
+    # This process is repeated until the last number in the list is subtracted by the final difference
 
     # Note: I originally used the numbers_list to go through the iteration process but was running into issues, specifically when calculating the result because for the first number it was calculating, result = numbers_list[0] - numbers_list[0] = 0 which would return an incorrect value to the user
-
-# ORIGINAL ASSIGNMENT: TAKING TWO USER INPUTS
-
-# Creating a function that two numbers and returns the result
-# def subtract_numbers(num1, num2):
-#     result = num1 - num2
-#     return result

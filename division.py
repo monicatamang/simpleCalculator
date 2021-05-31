@@ -9,7 +9,7 @@ def divide_numbers(numbers_list):
     # Iterating through the new list created
     for number in new_numbers_list:
 
-        # In general, the result is calculated by dividing the quotient and then dividing the quotient with the next number in the new list
+        # In general, the result is calculated by dividing two numbers to get the quotient and then dividing the quotient with the next number in the new list
         result = quotient / number
 
         # Once the new result is calculated, it is set as the new quotient value and the iteration process is repeated
@@ -17,10 +17,3 @@ def divide_numbers(numbers_list):
     
     # Returning the value
     return result
-
-# ORIGINAL ASSIGNMENT: TAKING TWO USER INPUTS
-
-# Creating a function that divides two numbers and returns the result
-# def divide_numbers(num1, num2):
-#     result = num1 / num2
-#     return result
